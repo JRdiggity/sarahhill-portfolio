@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Sarah Hill</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><span class="nav__logo-mark">SH</span><span class="nav__logo-text">Sarah Hill</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="index.html#work" class="nav__link">Portfolio</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="contact" id="contact" style="padding-top:calc(var(--nav-h) + 60px);min-height:100vh;display:flex;align-items:center">
+    <div class="contact__inner">
+      <div class="contact__tag-wrap" data-reveal><span class="tag tag--light">Get In Touch</span></div>
+      <h2 class="contact__heading" data-reveal data-delay="1">Let&rsquo;s build something<br />learners <em>remember.</em></h2>
+      <p class="contact__intro" data-reveal data-delay="2">Whether you need a full course build, a curriculum framework, or a quick consultation on your L&amp;D strategy &mdash; I&rsquo;d love to hear about it.</p>
+      <form class="cform" data-reveal data-delay="3">
+        <div class="cform__row">
+          <div class="cform__field"><label for="fn">First Name</label><input type="text" id="fn" placeholder="Jane" required /></div>
+          <div class="cform__field"><label for="ln">Last Name</label><input type="text" id="ln" placeholder="Smith" required /></div>
+        </div>
+        <div class="cform__field"><label for="co">Company</label><input type="text" id="co" placeholder="Acme Corp" required /></div>
+        <div class="cform__field"><label for="em">Email</label><input type="email" id="em" placeholder="jane@company.com" required /></div>
+        <div class="cform__field"><label for="msg">Message</label><textarea id="msg" placeholder="Tell me about your training needs..." required></textarea></div>
+        <div class="cform__submit"><button type="submit">Send Message</button></div>
+      </form>
+      <div class="contact__social" data-reveal data-delay="4">
+        <a href="/cdn-cgi/l/email-protection#dba8baa9bab39ba8baa9bab3b3b2b7b7f5b6be" class="btn btn--ghost btn--sm"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg> Email</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="btn btn--ghost btn--sm"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="index.html" class="footer__logo">SH</a>
+      <span>&copy; 2026 Sarah Hill</span>
+      <div class="footer__social">
+        <a href="/cdn-cgi/l/email-protection#f4879586959cb4879586959c9c9d9898da9991" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg></a>
+      

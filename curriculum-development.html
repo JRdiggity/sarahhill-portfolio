@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarah Hill — Curriculum Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="curriculum-development.html" class="nav__logo"><span class="nav__logo-mark">SH</span><span class="nav__logo-text">Sarah Hill</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="curriculum-development.html" class="nav__link active">Home</a></li>
+        <li><a href="curriculum-development.html#work" class="nav__link">Portfolio</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero hero--cd" id="home">
+    <div class="hero__content" data-reveal>
+      <p class="hero__eyebrow">Curriculum Developer</p>
+      <h1 class="hero__title">Standards-aligned programs built to <em>scale.</em></h1>
+      <p class="hero__subtitle">I design evidence-based curriculum frameworks, scope&nbsp;&amp; sequence documents, and assessment systems that produce measurable outcomes across K&#8209;12 and corporate training.</p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">See the work &darr;</a>
+        <a href="contact.html" class="btn btn--outline">Let&rsquo;s connect</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS AREAS — immediate value prop -->
+  <section class="focus" id="focus">
+    <div class="focus__inner">
+      <div class="focus__header" data-reveal>
+        <span class="tag">Core Competencies</span>
+        <h2 class="focus__heading">What I deliver</h2>
+      </div>
+      <div class="focus__grid">
+        <div class="fcard" data-reveal><h3>Curriculum Mapping</h3><p>Aligning objectives, assessments, and activities into coherent frameworks with no gaps or redundancies.</p></div>
+        <div class="fcard" data-reveal data-delay="1"><h3>Standards Alignment</h3><p>Mapping every unit to state, national, or industry standards with clear, measurable outcomes.</p></div>
+        <div class="fcard" data-reveal data-delay="2"><h3>Assessment Design</h3><p>Formative and summative tools that measure real understanding and generate actionable program data.</p></div>
+        <div class="fcard" data-reveal data-delay="3"><h3>Scope &amp; Sequence</h3><p>Year-long and multi-year frameworks that scaffold learning logically and support differentiation.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="work" id="work" style="background:var(--bg-alt)">
+    <div class="work__inner">
+      <div class="work__header" data-reveal>
+        <span class="tag tag--dark">Portfolio</span>
+        <h2 class="work__heading">Curriculum Samples</h2>
+        <p class="work__note">Developed for fictional programs to demonstrate design methodology and standards alignment.</p>
+      </div>
+      <div class="samples-grid">
+        <div class="sample" data-reveal>
+          <h3>Digital Citizenship Unit Plan</h3>
+          <p>Standards-aligned 6-week unit for grades 6&ndash;8. Includes scope &amp; sequence, daily lesson outlines, formative assessments, differentiation strategies, and a summative performance task with rubric.</p>
+          <a href="#" class="btn btn--primary btn--sm">View Unit Plan</a>
+        </div>
+        <div class="sample" data-reveal data-delay="1">
+          <h3>Elementary ELA Framework</h3>
+          <p>Year-long framework mapping Common Core ELA standards across quarters with embedded assessment checkpoints, differentiated pathways, and cross-curricular pacing guides.</p>
+          <a href="#" class="btn btn--primary btn--sm">View Framework</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="approach" id="approach">
+    <div class="approach__inner">
+      <div class="approach__header" data-reveal>
+        <span class="tag tag--dark">My Process</span>
+        <h2 class="approach__heading">How I develop curriculum</h2>
+      </div>
+      <div class="steps">
+        <div class="stp" data-reveal><div class="stp__num">01</div><h3>Research</h3><p>Audit existing materials, analyze performance data, and interview stakeholders to identify gaps.</p></div>
+        <div class="stp__conn" data-reveal></div>
+        <div class="stp" data-reveal data-delay="1"><div class="stp__num">02</div><h3>Map</h3><p>Build scope, sequence, and alignment frameworks connecting standards to daily instruction.</p></div>
+        <div class="stp__conn" data-reveal></div>
+        <div class="stp" data-reveal data-delay="2"><div class="stp__num">03</div><h3>Author</h3><p>Write unit plans, lesson outlines, and assessments with embedded differentiation and instructor guides.</p></div>
+        <div class="stp__conn" data-reveal></div>
+        <div class="stp" data-reveal data-delay="3"><div class="stp__num">04</div><h3>Refine</h3><p>Pilot with real learners, collect outcome data, and iterate based on evidence.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="about" id="about-preview">
+    <div class="about__inner">
+      <div class="about__grid">
+        <div class="about__img" data-reveal><img src="https://images.squarespace-cdn.com/content/v1/68879e2a1da4265f09d60e4d/45401259-50e6-4511-832e-e7acc6c08331/pittsburgh-82320-10_50269004988_o.jpg" alt="Sarah Hill" loading="lazy" /></div>
+        <div data-reveal data-delay="1">
+          <span class="tag" style="margin-bottom:20px;display:inline-block">About Me</span>
+          <h2 class="about__heading">Grounded in the <em>classroom.</em></h2>
+          <p style="color:var(--text-mid);font-size:.95rem">Three years of hands-on teaching gave me a deep understanding of how learners actually process information &mdash; and where curricula fall short.</p>
+          <p style="color:var(--text-mid);font-size:.95rem;margin-top:12px">My Master&rsquo;s in Curriculum &amp; Instruction equipped me with the research foundation to design programs that are standards-aligned, developmentally appropriate, and measurably effective.</p>
+          <a href="about.html" class="btn btn--outline btn--sm" style="margin-top:20px">Read more &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact-cta">
+    <div class="contact__inner">
+      <div class="contact__tag-wrap" data-reveal><span class="tag tag--light">Get In Touch</span></div>
+      <h2 class="contact__heading" data-reveal data-delay="1">Let&rsquo;s build programs<br />that <em>work.</em></h2>
+      <p class="contact__intro" data-reveal data-delay="2">Looking for a curriculum developer who understands both the research and the reality of the classroom?</p>
+      <div style="text-align:center" data-reveal data-delay="3"><a href="contact.html" class="btn btn--white">Contact me</a></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="curriculum-development.html" class="footer__logo">SH</a>
+      <span>&copy; 2026 Sarah Hill</span>
+      <div class="footer__social">
+        <a href="/cdn-cgi/l/email-protection#86f5e7f4e7eec6f5e7f4e7eeeeefeaeaa8ebe3" aria-label="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg></a>
+      </div>
+    </div>
+  </footer>
+  <script d
