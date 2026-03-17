@@ -55,6 +55,9 @@ em{font-family:var(--fd);font-style:italic}
 .nav__logo{display:flex;align-items:center;gap:10px;z-index:10}
 .nav__logo-mark{width:34px;height:34px;background:var(--primary);color:#fff;font-family:var(--fd);font-size:.9rem;border-radius:8px;display:flex;align-items:center;justify-content:center}
 .nav__logo-text{font-family:var(--fd);font-size:1.05rem;color:var(--text)}
+.nav__logo-img{height:40px;width:auto;display:block}
+.footer__logo-img{height:28px;width:auto;display:block;filter:brightness(0) invert(1);opacity:.6}
+.footer__logo-img:hover{opacity:.8}
 .nav__links{display:flex;list-style:none;gap:4px}
 .nav__link{font-size:.84rem;font-weight:500;padding:7px 16px;border-radius:100px;color:var(--text-mid);transition:color var(--t),background var(--t)}
 .nav__link:hover,.nav__link.active{color:var(--primary);background:rgba(27,45,58,.06)}
